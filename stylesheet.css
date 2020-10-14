@@ -1,0 +1,83 @@
+h1 {
+  position: relative;
+  text-align: center;
+}
+h1 span {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  margin: 0 4em;
+  padding: 0 1em;
+  background-color: #fff;
+  text-align: left;
+}
+h1::before {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  background: -webkit-linear-gradient(-45deg, transparent, #ccc 10%, #ccc 90%, transparent);
+  background: linear-gradient(-45deg, transparent, #ccc 10%, #ccc 90%, transparent);
+}
+
+h3 {
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ccc;
+}
+h3:first-letter {
+  margin-right: .1em;
+  font-size: 1.5em;
+}
+h5 {
+  padding: .5em .75em;
+  border: 1px solid #ccc;
+}
+
+
+body {
+background-image: url(https://pbs.twimg.com/profile_images/917096124783063040/pXBMiruz_400x400.jpg);
+background-repeat: no-repeat;
+background-position: 50px -90px;
+}
+
+
+以下フェイスブックページ
+
+.btn-social-phone a {
+  text-decoration: none;
+  line-height: 70px;
+  font-size: 18px;
+  margin: 5px;
+}
+.btn-social-phone .fa-stack-2x {
+  color: black;
+  font-size:70px;
+}
+.btn-social-phone .fa-stack-1x{
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  top: 12px;
+  left:5px;
+  transition: .4s;
+}
+.btn-social-phone-twitter {
+  color: #74c1f8;
+}
+.btn-social-phone-facebook {
+  color: #668ad8;
+}
+.btn-social-phone-pocket {
+  color: #f79393;
+}
+.btn-social-phone-feedly {
+  color: #acde71;
+}
+.btn-social-phone a:hover .fa-stack-1x {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
