@@ -41,7 +41,7 @@ h5 {
 body {
 background-image: url(https://pbs.twimg.com/profile_images/917096124783063040/pXBMiruz_400x400.jpg);
 background-repeat: no-repeat;
-background-position: 50px -90px;
+background-position: 50px 120px;
 }
 
 
@@ -80,4 +80,13 @@ background-position: 50px -90px;
 .btn-social-phone a:hover .fa-stack-1x {
   -webkit-transform: rotateX(360deg);
   transform: rotateX(360deg);
+}
+
+.sample {
+	font-size:5em;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	color: #FFF;
+	text-shadow: 0 0 0.2em rgba(0,0,0,1);
 }
